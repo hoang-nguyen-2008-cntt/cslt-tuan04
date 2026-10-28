@@ -61,3 +61,68 @@ double my_pow(double base, int exp)
     }
     return result;
 }
+
+double my_fabs(double x)
+{
+    if (x > 0)
+    {
+        return x;
+    }
+    else 
+    {
+        return -x;
+    }
+}
+
+double my_fmin(double x, double y)
+{
+    if (x < y)
+    {
+        return x;
+    }
+    else 
+    {
+        return y;
+    }
+}
+
+double my_fmax(double x, double y)
+{
+    if (x > y)
+    {
+        return x;
+    }
+    else 
+    {
+        return y;
+    }
+}
+
+double my_ceil(double x)
+{
+    int t = (int) x;
+    if (x <= 0)
+    {
+        return t;
+    }
+    else if (x == t )
+    {
+        return t;
+    }
+    else 
+    {
+        return t+1;
+    }
+}
+
+double my_round(double x)
+{
+    if (x >= 0)
+    {
+        return (int) (x + 0.5);
+    }
+    else 
+    {
+        return (int) (x - 0.5);
+    }
+}

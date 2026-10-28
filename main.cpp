@@ -7,6 +7,7 @@ using namespace std;
 
 int main()
 {
+    // bai tap tren lop //
     cout << "=====Test my_abs=====" << endl;
     cout << "my_abs(-7) = " << my_abs(-7) << endl;
     cout << "my_abs(5) = " << my_abs(5) << endl;
@@ -61,6 +62,47 @@ int main()
     cout << arrayCount(b, 5, 100) << endl;
     
     cout << endl;
+
+    // bai tap ve nha //
+    cout << "=====Test my_fabs=====" << endl;
+    cout << "my_fabs(-2.75) = " << my_fabs(-2.75) << endl;
+    cout << "my_fabs(1.5) = " << my_fabs(1.5) << endl;
+
+    cout << endl;
+
+    cout << "=====Test my_fmin=====" << endl;
+    cout << "my_fmin(2.5, 3) = " << my_fmin(2.5, 3) << endl;
+    cout << "my_fmin(-4.5, 3.5) = " << my_fmin(-4.5, 3.5) << endl;
+
+    cout << endl;
+
+    cout << "=====Test my_fmax=====" << endl;
+    cout << "my_fmax(2.5, -3) = " << my_fmax(2.5, -3) << endl;
+    cout << "my_fmax(4, 15) = " << my_fmax(4, 15) << endl;
+
+    cout << endl;
+
+    cout << "=====Test my_ceil=====" << endl;
+    cout << "my_ceil(2.7) = " << my_ceil(2.7) << endl;
+    cout << "my_ceil(2.1) = " << my_ceil(2.1) << endl;
+    cout << "my_ceil(2.0) = " << my_ceil(2.0) << endl;
+    cout << "my_ceil(-3.7) = " << my_ceil(-3.7) << endl;
+    cout << "my_ceil(-3.1) = " << my_ceil(-3.1) << endl;
+    cout << "my_ceil(-3.0) = " << my_ceil(-3.0) << endl;
+    cout << "my_ceil(0.0) = " << my_ceil(0.0) << endl;
+
+    cout << endl;
+
+    cout << "=====Test my_round=====" << endl;
+    cout << "my_round(2.3) = " << my_round(2.3) << endl;
+    cout << "my_round(2.5) = " << my_round(2.5) << endl;
+    cout << "my_round(2.7) = " << my_round(2.7) << endl;
+    cout << "my_round(-3.3) = " << my_round(-3.3) << endl;
+    cout << "my_round(-3.5) = " << my_round(-3.5) << endl;
+    cout << "my_round(-3.7) = " << my_round(-3.7) << endl;
+
+    cout << endl;
+
 
     return 0;
 }
